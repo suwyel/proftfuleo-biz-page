@@ -1,0 +1,243 @@
+a{
+    text-decoration: none;
+    color: #000;
+    transition: 1s
+}
+
+a:hover{
+    color: #18D26E;
+}
+body img{
+    max-width: 100%;
+}
+/* nav bar */
+.custonnav{
+    padding: 0 50px;
+}
+.custonnav .iconcuston {
+position: relative;
+font-size: 40px;
+text-transform: uppercase;
+
+}
+.custonnav .iconcuston::before {
+content: "";
+position: absolute;
+width: 5px;
+height: 40px;
+background-color: #18D26E;
+left: -20px;
+top: 20px;
+
+}
+
+
+
+
+/* slider */
+
+
+.carousel .carousel-caption {
+  top: 100px;
+    font-size: 30px;
+}
+
+
+.data{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+
+
+}
+.carousel .carousel-caption p {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 78px;
+}
+
+.datatabile .fa{
+    font-size: 30px;
+}
+
+
+/* about */
+.hadingbar h1,p{
+    position: relative;
+    z-index: 8;
+}
+.hadingbar h1::after{
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 5px;
+    background-color: #18D26E;
+    top: 98%;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    right: 48%;
+}
+
+.hadingbar h1::before{
+    position: absolute;
+    content: "";
+    width: 97px;
+    height: 1px;
+    background-color: #18D26E;
+    top: 102%;
+}
+
+
+.about {
+    background: url(../img/about-bg.jpg) fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+transition: all 1s;
+
+}
+.about::before{
+    position: absolute;
+content: "";
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+background-color: rgba(236, 227, 227, 0.9);
+
+
+}
+.about .card-body a{
+    transition: 1s;
+}
+.about .card-body a:hover{
+    color: #18D26E;
+}
+.cus{
+    position: relative;
+}
+
+.iconbar {
+    border: 5px solid #fff;
+    width: 70px;
+    height: 70px;
+    line-height: 54px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 34%;
+    left: 45%;
+    color: #fff;
+    background-color: #18D26E;
+    font-size: 30px;
+    transition: all 1s;
+}
+.card-group:hover .iconbar{
+    color: #18D26E;
+    background-color: #fff;
+}
+
+
+
+/* servise */
+
+.servesh i.fab.fa-whatsapp {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 6px;
+}
+
+
+/* collactione */
+
+
+.containar{
+    background: url(../img/call-to-action-bg.jpg) center center fixed;
+   
+}
+
+.backgrount a{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.containar a:hover{
+    background-color:#18D26E ;
+    border: 1px solid #18D26E;
+}
+
+.progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    height: 30px;
+}
+
+span {
+    margin-left: 80%;
+   
+}
+
+
+/* couneter */
+
+.couneter .bg{
+    background: url(../img/facts-bg.jpg) center center fixed;
+/* background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+position: fixed; */
+position: relative;
+z-index: 1;
+}
+.couneter .bg::before{
+    position: absolute;
+content: "";
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+background-color: rgba(236, 227, 227, 0.603);
+z-index: -1;
+}
+.count .counter {
+    color: #18D26E;
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+
+
+
+
+
+
+/* protfuleo */
+
+.marincontainar {
+    border: 2px solid #ddd;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+
+
+
+
+
+/* 
+
+animate__animated animate__backInRight
+
+animate__backInDown
+
+*/
+
+
+
